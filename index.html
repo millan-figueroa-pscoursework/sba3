@@ -9,6 +9,8 @@
 </head>
 <body class="text-slate-800 antialiased">
 
+  <!-- Header/ nav -->
+   <!-- Left nav -->
   <header class="border-b">
     <div class="mx-auto max-w-6xl px-8">
       <nav class="flex items-center justify-between py-10" aria-label="Primary">
@@ -22,7 +24,7 @@
             <li><a href="#" class=hover:text-slate-900>Contact</a></li>          
           </ul>
         </div>
-
+    <!-- Right nav -->
         <div class="flex items-center gap-12">
           <button class="relative" aria-label="Open cart">
             <img src="./ecommerce-product-page-main/images/icon-cart.svg" alt="cart icon" alt="Cart" class="h-6 w-6"/>
@@ -34,38 +36,48 @@
       </nav>
     </div>
   </header>
-  <main>
-    <section class="left-main">
-      <img src="./ecommerce-product-page-main/images/image-product-1.jpg" alt="white and tan sneakers" />
-      <div class="product-thumbnails">
-        <img src="./ecommerce-product-page-main/images/image-product-1-thumbnail.jpg" alt="white and tan sneakers" />
-        <img src="./ecommerce-product-page-main/images/image-product-2-thumbnail.jpg" alt="white and tan sneakers on stones" />
-        <img src="./ecommerce-product-page-main/images/image-product-3-thumbnail.jpg" alt="white and tan sneaker on stones front view" />
-        <img src="./ecommerce-product-page-main/images/image-product-4-thumbnail.jpg" alt="white and tan sneaker on stones side view"  />
-      </div>
-    </section>
-    <section class="right-main">
-      <h3>Sneaker Company</h3>
-      <h1>Fall Limited Edition Sneakers</h1>
-      <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
-      durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
-      <div>
-        <h2>$125.00</h2>
-        <div>50%</div>
-      </div>
-      <span>$250.00</span>
-      <div class="add-to-cart">
-        <div class="qty-input">
-          <img src="./ecommerce-product-page-main/images/icon-minus.svg" alt="minus" />
-          <span>0</span>
-          <img src="./ecommerce-product-page-main/images/icon-plus.svg" alt="plus">
+
+<!-- Main -->
+  <main class="mx-auto max-w-6xl px-4 py-12">
+    <div class="grid items-start gap-12 md:grid-cols-2">
+      <section aria-label="Products gallery">
+        <figure class="rounded-xl bg-slate-100 p-3">
+          <img 
+            src="./ecommerce-product-page-main/images/image-product-1.jpg" 
+            alt="white and tan sneakers" 
+            class="aspect-[4/3] w-full rounded-lg object-cover" />
+        </figure>
+        
+        <div class="product-thumbnails">
+          <img src="./ecommerce-product-page-main/images/image-product-1-thumbnail.jpg" alt="white and tan sneakers" />
+          <img src="./ecommerce-product-page-main/images/image-product-2-thumbnail.jpg" alt="white and tan sneakers on stones" />
+          <img src="./ecommerce-product-page-main/images/image-product-3-thumbnail.jpg" alt="white and tan sneaker on stones front view" />
+          <img src="./ecommerce-product-page-main/images/image-product-4-thumbnail.jpg" alt="white and tan sneaker on stones side view"  />
         </div>
-        <button>
-          <img src="./ecommerce-product-page-main/images/icon-cart.svg" alt="cart icon">
-          Add to cart
-        </button>
-      </div>
-    </section>
+      </section>
+      <section class="right-main">
+        <h3>Sneaker Company</h3>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+        durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        <div>
+          <h2>$125.00</h2>
+          <div>50%</div>
+        </div>
+        <span>$250.00</span>
+        <div class="add-to-cart">
+          <div class="qty-input">
+            <img src="./ecommerce-product-page-main/images/icon-minus.svg" alt="minus" />
+            <span>0</span>
+            <img src="./ecommerce-product-page-main/images/icon-plus.svg" alt="plus">
+          </div>
+          <button>
+            <img src="./ecommerce-product-page-main/images/icon-cart.svg" alt="cart icon">
+            Add to cart
+          </button>
+        </div>
+      </section>
+    </div>
   </main>
     
   <!-- <div class="attribution">
