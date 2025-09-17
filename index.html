@@ -7,21 +7,23 @@
   <link rel="stylesheet" href="./dist/output.css">
   <title>Frontend Mentor | E-commerce product page</title>
 </head>
-<body class="text-slate-800 antialiased bg-amber-300">
+<body class="text-slate-800 antialiased">
+
   <header class="border-b">
-    <div class="mx-auto max-w-6xl">
-      <nav>
-        <div class="left-nav">
-          <img src="./ecommerce-product-page-main/images/logo.svg" alt="company logo">
-          <ul>
-            <li>Collections</li>
-            <li>Men</li>
-            <li>Women</li>
-            <li>About</li>
-            <li>Contact</li>          
+    <div class="mx-auto max-w-6xl px-4">
+      <nav class="flex items-center justify-between py-6" aria-label="Primary">
+        <div class="flex items-center gap-10">
+          <img src="./ecommerce-product-page-main/images/logo.svg" alt="company logo" class="mx-auto h-8">
+          <ul class="hidden gap-8 text-sm text-slate-600 md:flex">
+            <li><a href="#" class=hover:text-slate-900>Collections</a></li>
+            <li><a href="#" class=hover:text-slate-900>Men</a></li>
+            <li><a href="#" class=hover:text-slate-900>Women</a></li>
+            <li><a href="#" class=hover:text-slate-900>About</a></li>
+            <li><a href="#" class=hover:text-slate-900>Contact</a></li>          
           </ul>
         </div>
-        <div class="right-nav">
+
+        <div class="flex items-center gap-6">
           <button>
             <img src="./ecommerce-product-page-main/images/icon-cart.svg" alt="cart icon"/>
           </button>
