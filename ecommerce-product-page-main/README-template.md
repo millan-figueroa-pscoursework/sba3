@@ -55,6 +55,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 -Had to change a bunch of file paths because e-commerce folder is a duplicate
 -Learned about the benefits of installing Tailwind locally vs dropping it in the HTML
 -Also learned that if im using a build like Vite or Next I would have to put the @ directives in a globals.css file
+-had to change a couple headings into p or span to apply styles
+-learned about the s tag, used to render text with a strikethrough
 
 ### Built with
 
